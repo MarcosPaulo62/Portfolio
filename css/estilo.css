@@ -1,0 +1,127 @@
+body{
+    background-color: aqua;
+}
+
+.card{
+    background-color: rgba(0, 0, 255, 0.093);
+    padding: 15px; 
+    margin: 15px 30px;
+    box-shadow: aqua 0px 0px 15px;
+    min-height: 450px;
+} 
+
+.card p{
+    font-size: 1.2em;
+}
+
+.badge-html{
+    background-color: #E44D26;
+    color: white;
+}
+
+.badge-css{
+    background-color: #264DE4;
+    color: white;
+}
+
+.badge-bootstrap{
+    background-color: #7144A7;
+    color: white;
+}
+
+.badge-js{
+    background-color: #F7E018;
+    color: white;
+}
+
+#sobre{
+    background-color: #01E9FF;
+}
+
+#habilidades{
+    background-color: #41ABC3;
+}
+
+#projetos{
+    background-color: #1996C2;
+}
+
+#contato{
+    background-color: #4A9AE9;
+}
+
+.row {
+    height: 100vh;
+}
+
+.titulo{
+    color: blue;
+    font-weight: 400;
+}
+
+.tecnologias{
+    width: 65%;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.tela-inicial img {
+    width: 90%;
+}
+
+#linkedin{
+    font-size: 50px;
+    color: #0A66C2;
+}
+
+#a-linkedin{
+    background-color: white;
+    border-radius: 5px;
+    height: 45px;
+    width: 50px;
+}
+
+#github{
+    font-size: 50px;
+    color: black;
+}
+
+#discord{
+    font-size: 30px;
+    color: white;
+    background-color: #5165F6;
+    padding: 10px;
+    border-radius: 30px;
+    height: 50px;
+    width: 50px;
+}
+
+.tec{
+    margin: 5px;
+}
+
+.tec:hover{
+    transition: 0.5s;
+    width: 75px;
+    height: 70px;
+    margin: 0;
+}
+
+.download-cv{
+    width: 200px;
+}
+
+.contato{
+    font-size: 1.5em;
+}
+
+#botao-home{
+    font-size: 40px;
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+}
