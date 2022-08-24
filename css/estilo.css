@@ -40,14 +40,17 @@ body{
 
 #sobre{
     background-color: #01E9FF;
+    min-height: 670px;
 }
 
 #habilidades{
     background-color: #41ABC3;
+    min-height: 500px;
 }
 
 #projetos{
     background-color: #1996C2;
+    min-height: 650px;
 }
 
 #contato{
@@ -182,6 +185,25 @@ body{
         font-size: 20px;
         height: 40px;
         width: 40px;
+    }
+
+    .card{
+        background-color: rgba(0, 0, 255, 0.093);
+        padding: 20px 0; 
+        margin: 15px 15px;
+        min-height: 400px;
+    }  
+
+    .card .titulo{
+        font-size: 1.3em;
+    }
+    
+    .card p{
+        font-size: 1.0em;
+    }
+
+    .card a {
+        font-size: 0.8em;
     }
 }
 
