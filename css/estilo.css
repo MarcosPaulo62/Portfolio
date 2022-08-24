@@ -34,6 +34,10 @@ body{
     color: white;
 }
 
+#home{
+    min-height: 630px;
+}
+
 #sobre{
     background-color: #01E9FF;
 }
@@ -60,7 +64,12 @@ body{
 }
 
 .tecnologias{
-    width: 65%;
+    width: 80%;
+}
+
+.icone{
+    height: 40px;
+    width: 45px;
 }
 
 .navbar{
@@ -71,6 +80,10 @@ body{
 
 .tela-inicial img {
     width: 90%;
+}
+
+.txt-home{
+    margin-top: 50px;
 }
 
 #linkedin{
@@ -124,4 +137,64 @@ body{
     position: fixed;
     bottom: 40px;
     right: 50px;
+}
+
+@media (max-width: 1024px) {
+    #home .titulo{
+        font-size: 0.9em;
+    }
+
+    #home .lead{
+        font-size: 1.2em;
+    }
+
+    .tecnologias{
+        width: 90%;
+    }
+
+    .icone{
+        height: 30px;
+        width: 35px;
+    }
+
+    #linkedin{
+        font-size: 40px;
+    }
+
+    #a-linkedin{
+        height: 35px;
+        width: 40px;
+    }
+
+    #github{
+        font-size: 40px;
+    }
+
+    #discord{
+        font-size: 20px;
+        height: 40px;
+        width: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    #home .txt-home{
+        margin-top: -50px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .img-home img{
+        width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    #home .titulo{
+        font-size: 0.8em;
+    }
+
+    #home .lead{
+        font-size: 1.1em;
+    }
 }
