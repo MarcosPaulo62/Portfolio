@@ -140,7 +140,11 @@ body{
 }
 
 .contato{
-    font-size: 1.5em;
+    font-size: 1.7em;
+}
+
+.contato span a{
+    font-size: 1em;
 }
 
 #botao-home{
@@ -205,6 +209,14 @@ body{
     .card a {
         font-size: 0.8em;
     }
+
+    .contato span{
+        font-size: 0.9em;
+    }
+
+    footer{
+        font-size: 0.9em;
+    }
 }
 
 @media (max-width: 992px){
@@ -246,6 +258,20 @@ body{
 
     .lead{
         font-size: 1.1em;
+    }
+
+    .contato span{
+        font-size: 0.8em;
+    }
+
+    footer{
+        font-size: 0.8em;
+    }
+    
+    #botao-home{
+        font-size: 35px;
+        bottom: 50px;
+        right: 40px;
     }
 }
 
