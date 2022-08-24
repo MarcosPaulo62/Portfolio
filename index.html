@@ -64,11 +64,11 @@
       <!-- Início Home -->
       <section class="container">
         <div class="row tela-inicial" id="home">
-          <div class="col-12 col-md-5 col-lg-5 mb-1 mt-5 d-flex flex-column justify-content-center align-items-center img-home">
+          <div class="col-12 col-md-5 mb-1 mt-5 d-flex flex-column justify-content-center align-items-center img-home">
             <img src="imagens/inicio.png">
           </div>
 
-          <div class="col-12 col-md-7 col-lg-7 mb-1 pb-5 d-flex flex-column justify-content-center txt-home">
+          <div class="col-12 col-md-7 mb-1 pb-5 d-flex flex-column justify-content-center txt-home">
             <div>
               <h1><span class="titulo font-weight-bold">Olá, eu sou Marcos Paulo!</span></h1>
               <p class="lead ml-1">Estudante de Desenvolvimento de Software</p>
@@ -108,11 +108,11 @@
       <section class="w-100" id="sobre">
         <div class="container">
           <div class="row">
-            <div class="col-6 col-lg-4 mb-5 d-flex flex-column justify-content-center">
+            <div class="col-12 col-lg-4 mt-5 d-flex flex-column justify-content-center img-sobre">
               <img src="imagens/sobre.png">
             </div>
 
-            <div class="col-6 col-lg-8 pb-5 d-flex flex-column justify-content-center">
+            <div class="col-12 col-lg-8 pb-5 d-flex flex-column justify-content-center txt-sobre">
               <h1><span class="titulo font-weight-bold">Sobre mim</span></h1>
               <p class="w-100 lead">Meu nome é <b class="text-primary">Marcos Paulo</b>, tenho 18 anos, atualmente estou cursando o 3° período de Sistemas de Informação na PUC Minas. Tenho conhecimentos nas tecnologias citadas na seção <a class="text-primary" href="#habilidades">Habilidades</a> e projetos feitos com essas tecnologias no meu <a class="text-primary" target="_blank" href="https://github.com/MarcosPaulo62">Github</a> que comprovam minha experiência. Estou em busca de um estágio para iniciar minha carreira e adquirir novos conhecimentos. </p>
               <a class="btn btn-info bg-info download-cv mt-3 font-weight-bold" href="curriculo/CV-MarcosPaulo.pdf" target="_blank">Download CV</a>
@@ -125,15 +125,15 @@
       <section class="w-100" id="habilidades">
         <div class="container">
           <div class="row">
-            <div class="col-6 col-lg-4 d-flex flex-column justify-content-center">
+            <div class="d-none d-md-flex col-6 col-lg-4 flex-column justify-content-center">
               <img src="imagens/estudando.png">
             </div>
 
-            <div class="col-6 col-lg-8 d-flex flex-column justify-content-center">
-              <h1 class="titulo font-weight-bold text-center mb-4">Habilidades</h1>
+            <div class="col-md-6 col-lg-8 d-flex flex-column justify-content-center text-center">
+              <h1><span class="titulo font-weight-bold mb-5">Habilidades</span></h1>
 
               <div class="d-flex">
-                <div class="mt-4 col-6">
+                <div class="mt-4 col-lg-6">
                   <div class="d-flex justify-content-between">
                     <img class="tec" onmouseover="descricaoTec('html')" onmouseout="retirarDescricao()" alt="Marcos-HTML" height="60" width="65" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
                     <img class="tec" onmouseover="descricaoTec('css')" onmouseout="retirarDescricao()" alt="Marcos-CSS" height="60" width="65" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
@@ -150,7 +150,7 @@
                   </div>
                 </div>
     
-                <div class="col-6 pl-2 pr-2">
+                <div class="d-none d-lg-block col-lg-6 pl-2 pr-2">
                   <h2 class="titulo text-center mt-4" id="titulo-tec"></h2>
                   <p class="lead text-justify"><span class="titulo">&lt;&nbsp;&frasl;&nbsp;&gt;</span> 
                     <span id="descricao-tec">Passe o mouse sobre a tecnologia para informações</span>
