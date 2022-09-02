@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: aqua;
 }
@@ -241,7 +245,7 @@ body{
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767.5px) {
     #home .txt-home{
         margin-top: -50px;
         text-align: center;
@@ -282,5 +286,13 @@ body{
 
     .lead{
         font-size: 1em;
+    }
+
+    .tec{
+        width: 3em;
+    }
+
+    .contato{
+        font-size: 1.3em;
     }
 }
