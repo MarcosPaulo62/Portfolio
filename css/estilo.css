@@ -158,6 +158,10 @@ body{
     right: 50px;
 }
 
+.lead{
+    font-weight: 400;
+}
+
 @media (max-width: 1024px) {
     .titulo{
         font-size: 0.9em;
