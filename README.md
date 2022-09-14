@@ -1,6 +1,6 @@
 # <a href="https://marcospaulo62.github.io/Portfolio/">Meu Portfólio</a>
 
-Portfólio com informações sobre mim e sobre meus projeto
+Portfólio com informações sobre mim e sobre meus projetos
 
 Construído com HTML, CSS, Javascript e Bootstrap
 
